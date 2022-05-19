@@ -67,6 +67,38 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
+```
+DEVELOPED BY : V.NAVYA.
+REFERENCE NO : 212221230069
+
+#include<Servo.h>
+Servo s1;
+void setup()
+{
+  s1.attach(9);
+}
+void loop()
+{
+  for(int i=0; i<=180;i+=1)
+  {
+    s1.write(i);
+    delay(15);
+  }
+  for(int i=180;i>=0;i-=1)
+      {
+        s1.write(i);
+        delay(15);
+      }
+}
+
+```
+
+### OUTPUT
+At 120 
+![GITHUB LOGO](s.png)
+
+At 180
+![GITHUB LOGO](w.png)
  
 
 
